@@ -1,15 +1,16 @@
+package data;
 import java.util.ArrayList;
 
 
 public class Event extends Ticket  
 {
 	int eventIdentifier;
-	Coordinates c;
+	public Coordinates c;
 
 	int totalTicketNumber;
-	ArrayList<Ticket> ticketInfo=new ArrayList<Ticket>(); //change to treemaps<ticketno, price>
+	public ArrayList<Ticket> ticketInfo=new ArrayList<Ticket>(); //change to treemaps<ticketno, price>
 	
-	Event(int eventIdentifier,	int totalTicketNumber,Coordinates c, ArrayList<Ticket> ticketInfo)
+	public Event(int eventIdentifier,	int totalTicketNumber,Coordinates c, ArrayList<Ticket> ticketInfo)
 	{
 		super();
 		this.eventIdentifier=eventIdentifier;
@@ -19,7 +20,7 @@ public class Event extends Ticket
 	}
 	
 	
-	Event()
+	public Event()
 	{
 		super();
 		this.eventIdentifier=0;
@@ -29,7 +30,7 @@ public class Event extends Ticket
 	}
 	
 	//Print function for Event details
-	void print()
+	public void print()
 	{
 		System.out.print("Event Indentifier: "+ eventIdentifier+" ");
 		System.out.print("Total Available Tickets: "+ totalTicketNumber+" ");
@@ -38,27 +39,5 @@ public class Event extends Ticket
 	}
 }
 
-//Class to represent a coordinate
-class Coordinates 
-{	
-	int x;
-	int y;
 
-	Coordinates(int x,int y)
-	{
-		this.x=x;
-		this.y=y;
-	}
-	
-	Coordinates()
-	{
-		this.x=0;
-		this.y=0;
-	}
-	
-	void print()
-	{
-		System.out.println("("+x+", "+y+")");
-	}
-}
 

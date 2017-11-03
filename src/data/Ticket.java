@@ -1,17 +1,18 @@
+package data;
 
 public class Ticket 
 {
 	int ticketNumber;
-	float price;
+	public float price;
 	
-	Ticket(int ticketNumber, float price)
+	public Ticket(int ticketNumber, float price)
 	{
 		
 		this.ticketNumber=ticketNumber;
 		this.price=price;
 	}
 
-	Ticket()
+	public Ticket()
 	{
 		
 		this.ticketNumber=0;
@@ -19,8 +20,8 @@ public class Ticket
 	}
 	
 	//Print function for Ticket
-	void print()
+	public void print()
 	{
-		System.out.println("TicketNumber: "+ticketNumber +" Price: $8"+price);
+		System.out.println("TicketNumber: "+ticketNumber +" Price: $"+price);
 	}
 }
