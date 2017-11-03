@@ -1,13 +1,10 @@
 package main;
 import java.util.Random;
 
+//Class to hold the helper math functions
 public class HelperMathFunctions 
 {
-
-	public class java {
-
-	}
-
+	//Modulus function
 	static int modulus(int x)
 	{
 		if(x>=0)
@@ -20,6 +17,7 @@ public class HelperMathFunctions
 		}
 	}
 	
+	//Random function
 	public static float randomFloat(float min, float max)
 	{
 		//generate random ticket prices

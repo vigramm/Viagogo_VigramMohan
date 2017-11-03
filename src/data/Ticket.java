@@ -1,5 +1,6 @@
 package data;
 
+//Class to hold ticket details
 public class Ticket 
 {
 	int ticketNumber;

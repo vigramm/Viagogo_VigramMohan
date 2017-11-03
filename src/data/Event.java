@@ -1,7 +1,7 @@
 package data;
 import java.util.ArrayList;
 
-
+//Class to hold event details
 public class Event extends Ticket  
 {
 	int eventIdentifier;

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import main.*;
 
+//Class to get Data
 public class Data 
 {
 	public static ArrayList<Event> getData(ArrayList<Event> data)
@@ -89,7 +90,4 @@ public class Data
 		}
 		return data;
 	}
-	
-
-
 }
