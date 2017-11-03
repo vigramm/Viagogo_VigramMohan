@@ -7,4 +7,4 @@
  * Inputs should be in the format x,y; whitespaces are allowed 
 
 # Note
-  * Questions.pdf contains the answers to the given questions
+  * Answers.pdf contains the answers to the given questions
