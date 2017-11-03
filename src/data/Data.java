@@ -20,8 +20,11 @@ public class Data
 		Random randomY= new Random();
 		int xNegative=1, yNegative=1; // to also include negative numbers
 		
+		//Change this to change the number of data points
+		int dataPoints=10;
+		
 		int counter=1;
-		while(counter<=10)
+		while(counter<=dataPoints)
 		{
 			
 			//Event Identifier Numbers same as counter( 1....total data points)
@@ -55,6 +58,7 @@ public class Data
 				{
 
 					//Get random Prices between 1 and 100dollars
+					//Change this to change the minimum and maximum price
 					float minPrice=1.00F;
 					float maxPrice=100.00F;
 					

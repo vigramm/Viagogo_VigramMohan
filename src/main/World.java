@@ -15,6 +15,7 @@ public class World extends Event
 	{
 		System.out.println("The closest events to you are");
 		Iterator<Map.Entry<Integer, Event>> iterator = distanceAndEvent.entrySet().iterator();
+		
 		for(int i=0;i<5;i++)
 		{
 			Map.Entry<Integer, Event> event = iterator.next();
@@ -56,8 +57,7 @@ public class World extends Event
 		// Getting the input from the user	
 		Scanner sc=new Scanner(System.in);
 		
-		System.out.println("Enter your location");
-		System.out.println("Enter the coordinate");
+		System.out.println("Enter your location in the format x,y");
 		String input=sc.nextLine();
 		
 		sc.close();
